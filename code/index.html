@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <script src="https://cdn.tailwindcss.com"></script>
+      <title>Shop</title>
+   </head>
+   <body>
+      <!-- Navbar -->
+      <div class="flex justify-between p-4 bg-gray-600 lg:p-8 h-24">
+         <div class="flex items-center">
+            <img
+               class="text-2xl font-bold text-white h-40"
+               src="./kawan-profil-till-case-1.png"
+               alt=""
+               />
+         </div>
+         <!-- left header section -->
+         <div class="flex items-center justify-between">
+            </button>
+            <div class="space-x-6 lg:inline-block">
+               <a href="#" class="text-base text-white">Home</a>
+               <a href="#" class="text-base text-white">Contact</a>
+               <a href="#" class="text-base text-white">Buy</a>
+            </div>
+         </div>
+      </div>
+      <!-- Section 1 -->
+      <section class="bg-gray-900 h-80 flex items-center justify-center">
+         <h1 class="text-white text-4xl	">Welcome to the official Versace website</h1>
+      </section>
+      <!-- Section 2 -->
+      <section class="flex items-center justify-center shrink flex-wrap">
+         <div class="flex flex-col m-2 items-center hover:rounded hover:bg-gray-200 p-8 transition-all">
+            <img class="h-96" src="iphone12.png">
+            <p>iPhone 12 Pro Max (Versace edition)</p>
+            <p>Pris: 13 490kr</p>
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mt-2">
+            Buy
+            </button>
+         </div>
+         <div class="flex flex-col m-2 items-center hover:rounded hover:bg-gray-200 p-8 transition-all">
+            <img class="h-96" src="./iphone12blue.png">
+            <p>iPhone 12 Pro Max (Versace edition)</p>
+            <p>Pris: 13 490kr</p>
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mt-2">
+            Buy
+            </button>
+         </div>
+         <div class="flex flex-col m-2 items-center hover:rounded hover:bg-gray-200 p-8 transition-all">
+            <img class="h-96" src="./iphone12pro.png">
+            <p>iPhone 12 Pro Max (Versace edition)</p>
+            <p>Pris: 13 490kr</p>
+            <button class="bg-blue-500 text-white font-bold py-2 px-4 rounded opacity-50 cursor-not-allowed">
+                Out of stock
+            </button>
+         </div>
+      </section>
+      <!-- Contact form -->
+      <section class="bg-neutral-900 items-center justify-center ">
+         <!-- component -->
+         <form class="w-full px-40 py-40 ">
+            <div class="flex flex-wrap -mx-3 mb-6">
+               <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                  <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
+                  First Name
+                  </label>
+                  <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Kawan">
+                  <p class="text-red-500 text-xs italic">Please fill out this field.</p>
+               </div>
+               <div class="w-full md:w-1/2 px-3">
+                  <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
+                  Last Name
+                  </label>
+                  <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="Lynx">
+               </div>
+            </div>
+            <div class="flex flex-wrap -mx-3 mb-6">
+               <div class="w-full px-3">
+                  <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
+                  E-mail
+                  </label>
+                  <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="email" type="email">
+               </div>
+            </div>
+            <div class="flex flex-wrap -mx-3 mb-6">
+               <div class="w-full px-3">
+                  <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
+                  Message
+                  </label>
+                  <textarea class=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none" id="message"></textarea>
+               </div>
+            </div>
+            <div class="md:flex md:items-center">
+               <div class="md:w-1/3">
+                  <button class="shadow bg-teal-400 hover:bg-teal-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="button">
+                  Send
+                  </button>
+               </div>
+               <div class="md:w-2/3"></div>
+            </div>
+         </form>
+      </section>
+      <!-- Footer -->
+      <section>
+         <footer class="bg-gray-200 text-center lg:text-left">
+            <div class="text-gray-700 text-center p-4" style="background-color: rgba(0, 0, 0, 0.2);">
+               © 2022 Copyright:
+               <a class="text-gray-800" href="#">Versace</a>
+            </div>
+         </footer>
+      </section>
+   </body>
+</html>
